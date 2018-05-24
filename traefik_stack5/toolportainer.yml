@@ -24,7 +24,7 @@ services:
     volumes:
       - portainer_data:/data
     networks:
-      - agent_network
+      - ntw_front
     deploy:
       mode: replicated
       replicas: 1

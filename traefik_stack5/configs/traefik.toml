@@ -4,10 +4,10 @@ defaultEntryPoints = ["http"]
  [entryPoints.http]
    address = ":80"
 # compress = false
- [entryPoints.http.redirect]
-    entryPoint = "https"
- [entryPoints.https]
-   address = ":443"
+# [entryPoints.http.redirect]
+#    entryPoint = "https"
+# [entryPoints.https]
+#   address = ":443"
 #    [entryPoints.https.tls]
 #      [[entryPoints.https.tls.certificates]]
 #      CertFile = "/etc/traefik/domain.com.cert"
